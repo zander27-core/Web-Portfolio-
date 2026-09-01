@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zander — IT Student Portfolio</title>
+<meta name="description" content="Portfolio of Zander, 3rd Year Information Technology student — web development, UI/UX, and systems projects.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="floaters"><span></span><span></span><span></span></div>
+
+<header class="nav" id="siteNav">
+  <div class="wrap">
+    <a href="#home" class="brand"><span class="dot"></span> Zander</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact" class="nav-cta btn btn-primary btn-sm">Contact Me</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><i class="fa-solid fa-bars"></i></button>
+  </div>
+</header>
+
+<section class="hero" id="home">
+  <div class="wrap">
+    <div class="reveal in">
+      <div class="tag-pill"><span class="blip"></span> Open to internship &amp; junior dev opportunities</div>
+      <h1>Hi, I'm <span>Zander.</span></h1>
+      <p class="role">3rd Year Information Technology Student</p>
+      <p class="desc">I'm passionate about web development, UI/UX design, and programming — I like taking an idea from a rough sketch to a working system, and I'm always looking for the next problem worth solving in code.</p>
+      <div class="cta-row">
+        <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-diagram-project"></i> View My Projects</a>
+        <a href="#contact" class="btn btn-ghost"><i class="fa-regular fa-paper-plane"></i> Contact Me</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>6+</strong><span>Projects built</span></div>
+        <div><strong>10</strong><span>Tools &amp; languages</span></div>
+        <div><strong>3rd Yr</strong><span>BS Information Technology</span></div>
+      </div>
+    </div>
+
+    <div class="reveal in">
+      <div class="terminal">
+        <div class="term-bar">
+          <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+          <span>zander@portfolio: ~</span>
+        </div>
+        <div class="term-body" id="typeTarget"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-pad" id="about">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="index mono">01</span>
+      <h2>About Me</h2>
+    </div>
+    <div class="about-grid">
+      <div class="reveal">
+        <div class="profile-frame">
+          <img src="zander.jpg" alt="Placeholder profile photo of Zander Estanislao" class="profile-img">
+          <div class="profile-tag">Zander Estanislao — Legazpi, Philippines</div>
+        </div>
+      </div>
+      <div class="about-copy reveal">
+        <h3>A student who builds things end to end.</h3>
+        <p>I'm a 3rd year Information Technology student based in the Philippines, currently deepening my skills in full-stack web development and human-centered design. What started as curiosity about "how websites actually work" turned into a habit of building — POS systems, campus tools, community platforms — anything that solves a real problem for real people.</p>
+        <p>I care about the details most users never notice: a form that validates cleanly, a layout that doesn't break on a small screen, a query that doesn't crawl. Outside of coursework, I explore UI/UX design principles and contribute to small personal projects to keep building.</p>
+        <div class="interest-tags">
+          <span><i class="fa-solid fa-code"></i>&nbsp; Web Development</span>
+          <span><i class="fa-solid fa-object-group"></i>&nbsp; UI/UX Design</span>
+          <span><i class="fa-solid fa-database"></i>&nbsp; Systems &amp; Databases</span>
+          <span><i class="fa-solid fa-people-group"></i>&nbsp; Community Tech</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-pad" id="skills" style="background:linear-gradient(180deg, transparent, rgba(255,255,255,0.4), transparent);">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="index mono">02</span>
+      <h2>Skills &amp; Tools</h2>
+    </div>
+    <p class="section-sub reveal" style="margin-top:-28px; margin-bottom:44px;">The stack I reach for most — from markup and logic to the databases and frameworks that hold a project together.</p>
+
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="skill-top"><div class="skill-icon"><i class="fa-brands fa-html5"></i></div><div><strong>HTML5</strong><small>Structure &amp; semantics</small></div></div>
+        <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-top"><div class="skill-icon"><i class="fa-brands fa-css3-alt"></i></div><div><strong>CSS3</strong><small>Layout &amp; styling</small></div></div>
+        <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-top"><div class="skill-icon"><i class="fa-brands fa-js"></i></div><div><strong>JavaScript</strong><small>Interactivity</small></div></div>
+        <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-top"><div class="skill-icon"><i class="fa-brands fa-php"></i></div><div><strong>PHP</strong><small>Server-side logic</small></div></div>
+        <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-top"><div class="skill-icon"><i class="fa-brands fa-java"></i></div><div><strong>Java</strong><small>OOP &amp; coursework</small></div></div>
+        <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-top"><div class="skill-icon"><i class="fa-solid fa-c"></i></div><div><strong>C++</strong><small>Algorithms &amp; DSA</small></div></div>
+        <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-top"><div class="skill-icon"><i class="fa-brands fa-laravel"></i></div><div><strong>Laravel</strong><small>Web framework</small></div></div>
+        <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-top"><div class="skill-icon"><i class="fa-solid fa-database"></i></div><div><strong>MySQL</strong><small>Relational databases</small></div></div>
+        <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-top"><div class="skill-icon"><i class="fa-brands fa-git-alt"></i></div><div><strong>Git &amp; GitHub</strong><small>Version control</small></div></div>
+        <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-top"><div class="skill-icon"><i class="fa-solid fa-pen-ruler"></i></div><div><strong>UI/UX Design</strong><small>Figma &amp; prototyping</small></div></div>
+        <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-pad" id="projects">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="index mono">03</span>
+      <h2>Projects</h2>
+    </div>
+    <p class="section-sub reveal" style="margin-top:-28px; margin-bottom:44px;">A mix of coursework and self-initiated builds — from a coffee shop POS to community-facing platforms.</p>
+
+    <div class="proj-grid">
+      <div class="proj-card reveal">
+        <div class="proj-media">
+          <span class="tagchip">Desktop App</span>
+          <img src="project 1.jpg" alt="Placeholder screenshot of the BrewPOS system">
+        </div>
+        <div class="proj-body">
+          <h3>BrewPOS</h3>
+          <p>A point-of-sale system built for small coffee shops — handles orders, inventory tracking, receipts, and daily sales reports from one dashboard.</p>
+          <div class="tech-row"><span>Java</span><span>MySQL</span><span>Swing</span></div>
+          <div class="proj-actions">
+            <a href="#" class="btn btn-ghost btn-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+            <a href="#" class="btn btn-ghost btn-sm"><i class="fa-brands fa-github"></i> Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-media">
+          <span class="tagchip">Web App</span>
+          <img src="project 2.jpg" alt="Placeholder screenshot of the Univet website">
+        </div>
+        <div class="proj-body">
+          <h3>Univet</h3>
+          <p>A university website concept covering admissions info, program listings, announcements, and a searchable faculty directory.</p>
+          <div class="tech-row"><span>Laravel</span><span>MySQL</span><span>Bootstrap</span></div>
+          <div class="proj-actions">
+            <a href="#" class="btn btn-ghost btn-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+            <a href="#" class="btn btn-ghost btn-sm"><i class="fa-brands fa-github"></i> Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-media">
+          <span class="tagchip">Web App</span>
+          <img src="project 3.jpg" alt="Placeholder screenshot of the BarangayLink system">
+        </div>
+        <div class="proj-body">
+          <h3>BarangayLink</h3>
+          <p>A community service-request and incident-reporting system that lets residents flag issues and track barangay officials' response status.</p>
+          <div class="tech-row"><span>Laravel</span><span>MySQL</span><span>Tailwind CSS</span></div>
+          <div class="proj-actions">
+            <a href="#" class="btn btn-ghost btn-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+            <a href="#" class="btn btn-ghost btn-sm"><i class="fa-brands fa-github"></i> Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-pad" id="education" style="background:linear-gradient(180deg, transparent, rgba(255,255,255,0.4), transparent);">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="index mono">04</span>
+      <h2>Education</h2>
+    </div>
+
+    <div class="timeline">
+      <div class="t-item current reveal">
+        <div class="t-dot"><i class="fa-solid fa-graduation-cap" style="font-size:0.55rem; color:#fff;"></i></div>
+        <div class="t-card">
+          <span class="t-period">2024 — Present</span>
+          <h3>BS Information Technology — 3rd Year</h3>
+          <div class="t-org">CCDI Legazpi</div>
+          <ul>
+            <li><i class="fa-solid fa-circle"></i> Consistent Dean's Lister, 1st &amp; 2nd year</li>
+            <li><i class="fa-solid fa-circle"></i> Member, IT Society and Web Development Club</li>
+            <li><i class="fa-solid fa-circle"></i> Focus track: Web &amp; Mobile Application Development</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="t-item reveal">
+        <div class="t-dot"></div>
+        <div class="t-card">
+          <span class="t-period">2022 — 2023</span>
+          <h3>Senior High School — STEM Strand</h3>
+          <div class="t-org">Masbate National High School</div>
+          <ul>
+            <li><i class="fa-solid fa-circle"></i> With Honors, both grade levels</li>
+            <li><i class="fa-solid fa-circle"></i> Represented school in a regional coding quiz bee</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="t-item reveal">
+        <div class="t-dot"></div>
+        <div class="t-card">
+          <span class="t-period">2017 — 2021</span>
+          <h3>Junior High School</h3>
+          <div class="t-org">Masbate National High School</div>
+          <ul>
+            <li><i class="fa-solid fa-circle"></i> With High Honors</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-pad" id="achievements">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="index mono">05</span>
+      <h2>Achievements &amp; Certificates</h2>
+    </div>
+    <p class="section-sub reveal" style="margin-top:-28px; margin-bottom:44px;">Certifications and recognitions from coursework, training programs, and competitions.</p>
+
+    <div class="cert-grid">
+      <div class="cert-card reveal">
+        <div class="cert-media"><img src="cert 1.jpg" alt="Placeholder image of the UI/UX Design Fundamentals certificate"></div>
+        <div class="cert-info"><h4>Overall Champion — Provincial Youth & Sports Development Office (Albay), 2017</h4><p>Recognized as an Overall Champion in a provincial youth sports competition, demonstrating teamwork, determination, and dedication.</p></div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-media"><img src="cert 2.jpg" alt="Placeholder image of the Inter-College Hackathon certificate"></div>
+        <div class="cert-info"><h4>Overall Champion — Youth Sports Competition</h4><p>Awarded Overall Champion for outstanding performance and achievement in a youth sports event in Albay.</p></div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-media"><img src="cert 3.jpg" alt="Placeholder image of the Dean's Lister certificate"></div>
+        <div class="cert-info"><h4>With Honors — Academic Achievement</h4><p>Recognized for achieving With Honors through consistent effort, dedication, and commitment to academic excellence.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-pad" id="contact" style="background:linear-gradient(180deg, transparent, rgba(255,255,255,0.4));">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="index mono">06</span>
+      <h2>Contact</h2>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <h3>Let's build something together.</h3>
+        <p>Whether it's an internship, a collaboration, or just a question about one of my projects — my inbox is open.</p>
+
+        <a href="mailto:estanislaonzander1@gmail.com" class="contact-line">
+          <div class="ic"><i class="fa-solid fa-envelope"></i></div>
+          <div><strong>Email</strong><span>estanislaonzander1@gmail.com</span></div>
+        </a>
+        <a href="https://facebook.com/zander.estanislao" class="contact-line">
+          <div class="ic"><i class="fa-brands fa-facebook-f"></i></div>
+          <div><strong>Facebook</strong><span>facebook.com/zander.estanislao</span></div>
+        </a>
+        <a href="https://github.com/zander-dev" class="contact-line">
+          <div class="ic"><i class="fa-brands fa-github"></i></div>
+          <div><strong>GitHub</strong><span>github.com/zander-dev</span></div>
+        </a>
+      </div>
+
+      <form class="form-card reveal" id="contactForm">
+        <div class="form-row">
+          <div class="field"><label for="fname">Name</label><input id="fname" type="text" placeholder="Juan Dela Cruz" required></div>
+          <div class="field"><label for="femail">Email</label><input id="femail" type="email" placeholder="you@email.com" required></div>
+        </div>
+        <div class="form-row">
+          <div class="field full"><label for="fsubject">Subject</label><input id="fsubject" type="text" placeholder="Let's collaborate on..."></div>
+        </div>
+        <div class="form-row">
+          <div class="field full"><label for="fmsg">Message</label><textarea id="fmsg" placeholder="Tell me a bit about what you have in mind." required></textarea></div>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;"><i class="fa-regular fa-paper-plane"></i> Send Message</button>
+        <p class="form-note">This form is a static demo — connect it to a backend or a service like Formspree to receive messages.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">Zander Estanislao</div>
+        <p class="footer-quote">"Turning ideas into functional and creative digital experiences."</p>
+      </div>
+      <div class="footer-social">
+        <a href="estanislaonzander1@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://www.facebook.com/zanderestanislao" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://github.com/zander27-core" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://linkedin.com/in/zanderestanislao" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> Zander Estanislao. All rights reserved.</span>
+      <span>Built with HTML, CSS &amp; JavaScript.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
